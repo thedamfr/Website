@@ -1,38 +1,27 @@
-///// Cool Kitten - Parrallax Scrolling responsive frame work - 1.0 /////
-Author: Jalxob
-Release Date: February 2013.
+Site de l'Association des Etudiants de Lille 1
 
-///// Building /////
+---------------------------------------------
 
-A small build script is included in order to minify and concatenate your javascript and css files. In order to use this script, you need to have *clean-css* and *uglify-js* installed globally using npm.
+Ce site est basé sur les technologies web libres suivantes : HTML5, JS, CSS 3 + Framework CoolKitten (voir ici http://jalxob.com/cool-kitten/)
 
-``` bash
-sudo npm install clean-css uglify-js -g
-```
+---------------------------------------------
 
-Own the script
+Ce qu'il reste à faire :
 
-``` bash
-chmod u+x compile.sh
-```
+***RESEAUX SOCIAUX
 
-Execute the script
+- intégration de Facebook dans la partie "Réseaux Sociaux"
+- modifier l'intégration de Twitter dans cette même partie (ou alors modifier le CSS) afin de permettre aux personnes de visualiser les 3 derniers Tweets seulement
 
-``` bash
-./compile.sh
-```
+***EVENEMENTS
 
-///// Resources /////
-- Normalize.css
-- jQuery Easing Plugin
-- Stellar.js
+- intégration d'un calendrier + le prochain évènement programmé (en grand) ainsi que le suivant (en plus petit)
 
-///// Questions & Contact /////
-This is my first framework so if you see any issue please let me know it.
+***GALERIE PHOTOS
 
-Website: www.jalxob.com/cool-kitten
-Author's website: www.jalxob.com
-Twitter: @Jalxob
+- intégration d'une image .jpeg test ainsi que d'un hyperlien permettant d'accéder à PhotoShow pour visualiser les photos de tous les évènements connus de l'asso
 
-Build script and additional changes by [@james2doyle](https://github.com/james2doyle)
+***LE BUREAU
+
+- intégration d'une photo montage permettant de regrouper tous les membres de l'asso + nom/prénom/fonction (sur chaque photo) avec un hyperlien permettant d'accéder aux adresses e-mail de l'association
 
